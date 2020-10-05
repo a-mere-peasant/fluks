@@ -23,5 +23,5 @@ jobs:
       - uses: actions/checkout@v2
 
       # Gradle test flow for JVM
-      - name: Run a one-line script
+      - name: Gradle test for JVM
         run: ./gradlew jvmTest
